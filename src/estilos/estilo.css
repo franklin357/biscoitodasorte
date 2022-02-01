@@ -18,6 +18,10 @@ body {
     font-weight: bold;
 }
 
+.imagem {
+    width: 200px;
+}
+
 .botaoContainer {
   display: flex;
   flex-direction: column;
@@ -30,7 +34,7 @@ body {
     text-align: center;
     font-weight: bold;
     font-style: italic;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .botao {
@@ -48,9 +52,10 @@ body {
 
 @media (max-width: 680px) {
     .imagem {
-        width: 100%;
+        width: 200px;
     }
     .frase {
         width: 90%;
+        font-size: 16px;
     }    
 }
